@@ -1,0 +1,500 @@
+  200  cd g/
+  201  ls
+  202  cd ..
+  203  cd test2/
+  204  ls
+  205  cd ..
+  206  ls
+  207  rm -rf g
+  208  rm -rf test2/
+  209  rm -rf test2
+  210  ls
+  211  cd test2/
+  212  ls
+  213  git remote -v
+  214  git remote remove origin
+  215  git remote -v
+  216  clear
+  217  ls
+  218  ls -al
+  219  clear
+  220  touch new.txt
+  221  git init
+  222  ls -al
+  223  clear
+  224  git add new.txt
+  225  git remote add origin https://github.com/pramod337/testing.git
+  226  git remote -v
+  227  git commit -m "new file"
+  228  git push -u origin master
+  229  git pull origin master --rebase
+  230  git push -u origin master
+  231  clear
+  232  git clone https://github.com/pramod337/testing.git
+  233  ls
+  234  rm abc.txt 
+  235  ls
+  236  git rm -rf testing/
+  237  git rm -rf testing
+  238  git rm xyz.txt 
+  239  git commit -m "deleted"
+  240  git push origin master
+  241  cd ..
+  242  ls
+  243  cd test2/
+  244  ls
+  245  rm testing/
+  246  rm -rf testing/
+  247  ls
+  248  cat new.txt 
+  249  git add new.txt
+  250  git commit -m "new file"
+  251  git remote -v
+  252  git commit -m "new file"
+  253  touch new2.txt
+  254  git add new2.txt 
+  255  git commit -m "new msg"
+  256  git push -u origin master
+  257  touch new3.txt
+  258  git add new3.txt 
+  259  gitexit
+  260  exit
+  261  ls
+  262  ls -al
+  263  git init
+  264  ls -al
+  265  git add basic.html 
+  266  git commit -m "html page"
+  267  git remote -v
+  268  git clone https://github.com/pramod337/testing.git
+  269  cd ..
+  270  git remote -v
+  271  git remote add origin https://github.com/pramod337/testing.git
+  272  git remote -v
+  273  git push -u origin master
+  274  git pull origin master --rebase
+  275  git push -u origin master
+  276  git add basic.html
+  277  ls
+  278  cd task/
+  279  git add basic.html
+  280  git push -u origin master
+  281  git push -u origin master
+  282  git push origin master
+  283  history >> cmd.txt
+  284  ls
+  285  git push -u origin master
+  286  clear
+  287  git push -u origin master
+  288  git remote -v
+  289  git remote add origin https://github.com/pramod337/testing.git
+  290  git remote -v
+  291  git push -u origin master
+  292  git push origin master
+  293  git remote -v
+  294  git branch
+  295  git push origin master
+  296  git log --oneline
+  297  git remote -v
+  298  git status 
+  299  ls
+  300  cd testing/
+  301  ls
+  302  git status
+  303  cd ..
+  304  git push --force origin master
+  305  git status
+  306  git add home.html
+  307  git commit -u "home page"
+  308  git commit -m "html page"
+  309  git push origin master
+  310  git log
+  311  git log --online
+  312  git log --oneline
+  313  git reflog
+  314  git fetch
+  315  ls
+  316  clear
+  317  git branch
+  318  git branch new-branch
+  319  git branch
+  320  git remote -v
+  321  git commit -m "newbranch"
+  322  git commit -m new-branch "newbranch"
+  323  git branch
+  324  ls
+  325  git add im.jpg 
+  326  git commit -m new-branch "newbranch"
+  327  git commit -m master "newbranch"
+  328  git commit -m "newbranch"
+  329  git push origin master
+  330  git checkout new-branch
+  331  ls
+  332  git add img_mountains.jpg
+  333  git -m commit "newly created branch"
+  334  git -u commit "newly created branch"
+  335  git -m commit "newly created branch"
+  336  git commit -m "newly created branch"
+  337  git push origin new-branch 
+  338  clear
+  339  ls
+  340  history >> cmd.txt 
+  341  git clone https://github.com/pramod337/testing.git
+  342  rm -rf testing/
+  343  git clone 
+  344  ls
+  345  cd testing/
+  346  git rm basic.html
+  347  git commit -m "files deleted"
+  348  git branch
+  349  git checkout new-branch
+  350  ls
+  351  git rm basic.html
+  352  git checkout new-branch
+  353  git commit -m "files deleted"
+  354  git push origin new-branch
+  355  cd ..
+  356  ls
+  357  rm -rf testing/
+  358  git remote -v
+  359  git checkout master 
+  360  git branch -d new-branch 
+  361  git branch -D new-branch 
+  362  git push -d origin new-branch
+  363  git branch newone
+  364  git branch
+  365  git checkout newone 
+  366  ls
+  367  ls -al
+  368  git add test.html 
+  369  git commit -m "new file"
+  370  git push origin newone 
+  371  history >> cmd.txt
+  372  clear
+  373  git branch
+  374  git checkout master
+  375  ls
+  376  git -D branch newone
+  377  git branch -D newone 
+  378  git push -d origin newone
+  379  clear
+  380  ls
+  381  git add background.jpg
+  382  git commit -m "subash added"
+  383  git push origin master
+  384  clear
+  385  git branch
+  386  git branch subash
+  387  git branch
+  388  git checkout subash
+  389  git push origin subash 
+  390  ls
+  391  git add cmd.txt
+  392  git commit -m "added"
+  393  git push origin subash
+  394  ls
+  395  git remote add origin https://github.com/pramod337/testing/pull/new/subash
+  396  git remote -v
+  397  clear
+  398  git remote -v
+  399  cat cmd.txt
+  400  git log --oneline
+  401  git branch -M subbu
+  402  git reset HEAD~3
+  403  git log --oneline
+  404  exit
+  405  git branch
+  406  git log
+  407  clear
+  408  git clone https://github.com/SrikakulamSrinivasarao/Merging.git
+  409  ls
+  410  cd Merging/
+  411  ls
+  412  git branch pramod
+  413  git branch
+  414  touch pra.txt
+  415  ls
+  416  ls -al
+  417  git remote -v
+  418  git commit -m "its pramod"
+  419  git add pra.txt 
+  420  git commit -m "its pramod"
+  421  git push origin ayush
+  422  git branch
+  423  git checkout pramod 
+  424  touch pra2.txt
+  425  git add pra2.txt 
+  426  git commit -m "2nd commit"
+  427  git push origin pramod
+  428  git clone https://github.com/SrikakulamSrinivasarao/Merging.git
+  429  ls
+  430  cd Merging/
+  431  ls
+  432  git rm pra.txt
+  433  git commit -m "files deleted"
+  434  git push origin ayush
+  435  git rm w1.txt
+  436  git commit -m "files deleted"
+  437  git push origin ayush
+  438  clear
+  439  history >> cmd.txt
+  440  ezxit
+  441  exit
+  442  git branch
+  443  git remote -v
+  444  git remote origin https://github.com/SrikakulamSrinivasarao/Merging.git
+  445  git remote add origin https://github.com/SrikakulamSrinivasarao/Merging.git
+  446  git remote -v
+  447  git remote remove origin
+  448  git remote -v
+  449  git remote add origin https://github.com/SrikakulamSrinivasarao/Merging.git
+  450  git remote -v
+  451  git branch
+  452  git branch pramod
+  453  git branch
+  454  touch pra.txt
+  455  git add pra.txt
+  456  git commit -m "i added0"
+  457  pwd
+  458  cd Desktop/
+  459  ls
+  460  cd task/
+  461  ls
+  462  git add im.jpg
+  463  git commit -m "i added"
+  464  git branch
+  465  git remote -v
+  466  git remote remove origin
+  467  git remote -v
+  468  git remote add origin https://github.com/SrikakulamSrinivasarao/Merging.git
+  469  ls
+  470  git add im.jpg
+  471  git commit -m "im added"
+  472  ls -l
+  473  git init
+  474  git add im.jpg
+  475  git commit -m "im added"
+  476  git branch
+  477  git remote -v
+  478  git branch pramod
+  479  git branch 
+  480  git checkout pramod 
+  481  git add im.jpg
+  482  git commit -m "im added"
+  483  git remote -v
+  484  git status
+  485  git add .
+  486  git commit -m "added all fils"
+  487  git check-ignore -v im.jpg
+  488  git commit -m "im added"
+  489  git add im.jpg
+  490  git commit -m "im added"
+  491  pwd
+  492  git remote -v
+  493  clear
+  494  git status
+  495  git branch
+  496  git push -d origin pramod
+  497  git branch -d pramod
+  498  git branch -D pramod
+  499  git branch master
+  500  git checkout master
+  501  git remote -v
+  502  git remote remove origin
+  503  git remote -v
+  504  git branch
+  505  git branch -D pramod
+  506  git branch
+  507  git add origin https://github.com/SrikakulamSrinivasarao/Merging.git
+  508  git remote add origin https://github.com/SrikakulamSrinivasarao/Merging.git
+  509  git remote -v
+  510  git branch
+  511  pwd
+  512  cd Desktop/task/
+  513  ls
+  514  ls -al
+  515  rm -rf .git/
+  516  ls -al
+  517  git init
+  518  git add im.jpg 
+  519  git commit -m "i added"
+  520  git push origin master
+  521  git push -u origin master
+  522  git branch pramod2
+  523  git branch
+  524  git status
+  525  git add .
+  526  git clean -fd
+  527  git status
+  528  cd g/
+  529  ls
+  530  rm -rf test2/
+  531  touch new.txt
+  532  cd ..
+  533  git clean -fd
+  534  git status
+  535  ls
+  536  git add g/
+  537  clear
+  538  ls
+  539  rm -rf g
+  540  ls
+  541  git remote -v
+  542  git remote add origin https://github.com/SrikakulamSrinivasarao/Merging.git
+  543  git remote -v
+  544  git branch
+  545  git branch -D pramod2
+  546  git branch
+  547  git branch
+  548  git push origin ayush
+  549  history > cmd.txt
+  550  clear
+  551  git remote -v
+  552  git remote remove origin
+  553  git add remote origin https://github.com/pramod337/testing.git
+  554  git remote add origin https://github.com/pramod337/testing.git
+  555  git remote -v
+  556  git branch
+  557  git branch subash
+  558  git branch pramod
+  559  git branch
+  560  git clone https://github.com/pramod337/testing.git
+  561  ls
+  562  cd testing/
+  563  ls
+  564  git rm home.html 
+  565  git commit -m "deleted home.html"
+  566  git push origin master
+  567  cd ..
+  568  ls
+  569  git branch
+  570  git status
+  571  ls
+  572  touch f1.txt
+  573  ls
+  574  git add f1.txt
+  575  git commit -m "adding f1"
+  576  git push -u origin master
+  577  git remote -v
+  578  git add f1.txt
+  579  git commit -m "adding f1"
+  580  git clean -f
+  581  ls
+  582  git add f1.txt
+  583  git commit -m "adding f1"
+  584  rm testing/
+  585  rm -rf testing/
+  586  git add f1.txt
+  587  git commit -m "adding f1"
+  588  git push -u origin master
+  589  git pull origin master
+  590  git add f1.txt
+  591  git commit -m "added f1"
+  592  git push -u origin master
+  593  git pull
+  594  git pull origin master
+  595  git add f1.txt
+  596  git commit -m "added f1"
+  597  git push -u origin master
+  598  git pull origin master --allow-unrelated-histories
+  599  git add f1.txt
+  600  git commit -m "added f1"
+  601  git push -u origin master
+  602  git branch
+  603  git branch -D subash
+  604  git branch
+  605  git push origin --delete subash
+  606  git branch -D pramof
+  607  git branch -D pramod
+  608  git push origin --delete pramod
+  609  git branch
+  610  git branch pramod
+  611  git push -u origin
+  612  git checkout pramod 
+  613  git push -u origin pramod
+  614  ls
+  615  git add im.jpg
+  616  git git commit -u "i added it"
+  617  git commit -u "i added it"
+  618  ls
+  619  git rm -r *
+  620  git commit -m "removed unwanted files"
+  621  git push -u origin pramod
+  622  ls
+  623  touch f1.txt
+  624  git add f1.txt 
+  625  git commit -m "added new file"
+  626  git push -u origin pramod
+  627  git push origin --delete pramod
+  628  git remote add origin https://github.com/SrikakulamSrinivasarao/Merging.git
+  629  get remote -v
+  630  git remote -v
+  631  git remote remove origin
+  632  git remote add origin https://github.com/SrikakulamSrinivasarao/Merging.git
+  633  git remote -v
+  634  git branch
+  635  git pull origin master
+  636  git pull origin ayush
+  637  git pull origin master --allow-unrelated-histories
+  638  git pull origin ayush --allow-unrelated-histories
+  639  git branch
+  640  git remote -v
+  641  git fetch --all
+  642  git branch -r
+  643  git checkout main
+  644  git checkout ayush
+  645  git checkout -b pramod
+  646  git checkout -b pramod2
+  647  git push origin pramod2
+  648  ls
+  649  touch f1.txt
+  650  git add f1.txt 
+  651  git commit -u "testing"
+  652  git commit -m "testing"
+  653  git push origin pramod2
+  654  git branch -D ayush
+  655  git push -u origin pramod2
+  656  git fetch --all
+  657  git checkout pramod2 
+  658  git push origin pramod2
+  659  git branch -d ayush
+  660  git branch
+  661  git fetch --all
+  662  git branch
+  663  git branch -D pramod
+  664  git push -u origin pramod2
+  665  git branch
+  666  git push origin --delete pramod2
+  667  git branch mahek
+  668  git checkout mahek
+  669  git push -u origin ayush
+  670  git push -u origin mahek
+  671  ls
+  672  git add f1.txt
+  673  git commit -m "added by pramod"
+  674  git push -u origin mahek
+  675  git fetch --all
+  676  git branch
+  677  git branch -d pramod2
+  678  git add f1.txt
+  679  git commit -m "added by pramod"
+  680  git status
+  681  git log
+  682  git add .
+  683  git commit -m "added by pramod"
+  684  git add f1.txt
+  685  git commit -m "added by pramod"
+  686  git push -u origin mahek
+  687  git pull mahek
+  688  git checkout ayush
+  689  ls
+  690  touch f1.txt
+  691  git add f1.txt
+  692  git commit -m "added by pramod"
+  693  git push -u origin ayush
+  694  git checkout mahek
+  695  git add f1.txt
+  696  git commit -m "added by pramod"
+  697  git branch pramod
+  698  git push -u origin pramod
+  699  history >> cmd.txt
