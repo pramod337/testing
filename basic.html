@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+
+body {
+background-image: url(im.jpg);
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+color: black;
+}
+
+
+.card {
+width: 300px;
+height: 350px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+transition: 0.3s;
+border-radius: 10px;
+position: absolute;
+padding: 20px;
+top: 20%;
+left: 35%;
+text-align: center;
+}
+
+.but {
+background: transparent;
+
+
+padding: 5px;
+border-radius: 10px;
+outline: none;
+border-style: grove;
+
+}
+
+.trans {
+
+background: transparent;
+            border: none;
+            color: black;
+            padding: 15px;
+            font-size: 10px;
+            outline: none;
+	    height: 5px;
+	width: 150px;
+border-radius: 5px;
+border-style: groove;
+}
+
+</style>
+<body>
+
+<div class="card">
+
+<form action="login.html" method="POST">
+
+<h2><i>Signup</i></h2>
+<br>
+<lable for="name"></lable>
+<input type="text" placeholder="Enter name" class="trans" id="name" name="name" required>
+
+<br></br>
+
+<lable for="email"></lable>
+<input type="email" placeholder="Enter Email" class="trans" id="email" name="email" required>
+<br></br>
+<lable for="password"></lable>
+<input type="password" placeholder="Password" styke class="trans" id="password" name="password" required>
+<br></br>
+
+<input type="submit" class="but" value="submit">
+</form>
+
+
+
+</div>
+</body>
+</html>
